@@ -1,5 +1,5 @@
 
-Link: https://www.codewars.com/kata/5808ce703e55743db7000d92/train/javascript
+//Link: https://www.codewars.com/kata/5808ce703e55743db7000d92/train/javascript
 
 
 

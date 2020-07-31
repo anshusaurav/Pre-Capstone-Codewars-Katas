@@ -1,4 +1,4 @@
-
+//Link https://www.codewars.com/kata/56bac4c34537cf1e270005a1/train/javascript
 Array.prototype.sort = function () {
   var res = [];
   for (var i = 0; i < this.length; i++) {
