@@ -16,12 +16,10 @@ var knapsack = function (capacity, items) {
         index--;
     }
     return items.map((elem, index) => {
-
         for (let i = 0; i < items.length; i++) {
             if (elem[0] === itemsClone[i][0] && elem[1] === itemsClone[i][1]) {
                 return res[i];
             }
         }
     })
-    //     return res;
 }
