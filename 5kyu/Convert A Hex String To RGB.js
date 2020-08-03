@@ -1,13 +1,9 @@
-//Link: https://www.codewars.com/kata/551dd1f424b7a4cdae0001f0/train/javascript
+https://www.codewars.com/kata/5282b48bb70058e4c4000fa7
 
-function whoIsNext(names, r) {
-    let x = names.length;
-    let cnt = 1;
-    while (r > x) {
-        r -= x;
-        cnt *= 2;
-        x *= 2;
-    }
-    return names[Math.floor((r - 1) / cnt) % x];
+function hexStringToRGB(hexString) {
+    let r = parseInt(hexString.slice(1, 3), 16);
+    let g = parseInt(hexString.slice(3, 5), 16);
+    let b = parseInt(hexString.slice(5, 7), 16);
+
+    return { r, g, b };
 }
-
