@@ -1,3 +1,8 @@
+//https://www.codewars.com/kata/55c6126177c9441a570000cc/train/javascript
+
+
+
+
 function orderWeight(strng) {
     const res = strng.trim('').split(' ').map((elem, index) => [elem, index]);
     return res.sort((a, b) => {
